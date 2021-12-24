@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout</title>
+    <link rel="stylesheet" href="css/style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+      
+      <header class="header">
+        <div class="container">
+          <div class="hea">
+            <div class="main-logo">
+              <img class="logo" src="images/logo.jpg" alt="company-logo" />
+            </div>
+            <div class="nav">
+                <span>HOME</span>
+                <span>NEW</span>
+                <span>WOMEN</span>
+                <span>MEN</span>
+                <span>BLOG</span>
+                <span>ABOUT</span>
+              </ul>
+            </div>
+            <div class="icon">
+              <img class="search-icon" src="images/search.png" alt="search" />
+              <img
+                class="profile-icon"
+                src="images/account2.png"
+                alt="account"
+              />
+              <img class="bag" src="images/bag.png" alt="bag" />
+              <div class="notification">
+              <p class="noti">16</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="nav-tab">
+        <div class="container">
+        <div class="icons">
+        <div class="home"><i class="fa fa-home"></i></div>
+        <div class="arrow"><i class="fa fa-chevron-right"></i></div>
+        <div class="checks"><p class="check">CHECKOUT</p></div>
+      </div>
+    </div>
+      </section>
+      
+      
+      <section class="container1">
+        <div class="billing-left">
+          <div class="hea-left">
+          <h3 class="left-hea">BILLING ADDRESS</h3>
+          <form class="form0">
+          <input class="input-checkbox" type="checkbox" id="shipping"  >
+          <label class="label-ship" for="shipping"> Ship to the same address</label>
+        </form>
+
+        </div>
+          <div class="forms">
+          <form class="form1">
+            <div>
+            <label class="first">First Name<sup>*</sup></label><br>
+            <input class="ft-name bar" type="text" required ></div>
+
+            <div>
+            <label class="first">Address<sup>*</sup></label><br>
+            <input class="add-name bar" type="text" required></div>
+
+            <div>
+            <label class="first ">Country/States</label>
+            <select id="country" name="country" class="bar">
+              <option class="select">Select</option>
+              <option value="India">India</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="American Samoa">American Samoa</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Anguilla">Anguilla</option>
+              <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Aruba">Aruba</option>
+              <option value="Australia">Australia</option>
+              <option value="Austria">Austria</option>
+              <option value="Azerbaijan">Azerbaijan</option>
+              <option value="Bahamas">Bahamas</option>
+              <option value="Bahrain">Bahrain</option>
+              <option value="Bangladesh">Bangladesh</option>
+            </select></div>
+            <div>
+            <label class="first">Email Address</label><br>
+            <input class="ft-name bar" type="email">
+          </div>  
+          </form>
+          <form class="form2">
+            <div>
+            <label class="first">Last Name<sup>*</sup></label><br>
+            <input class="ft-name bar" type="text" required ></div>
+            <div>
+            <label class="first">Town/City<sup>*</sup></label><br>
+            <input class="ft-name bar" type="text" required ></div>
+            <div>
+            <label class="first">Postcode/Zip</label><br>
+            <input class="ft-name bar" type="number" required ></div> 
+            
+            
+                
+                <label class="first code-main">Phone</label><br>
+                <div class="code-flex">
+                <div>
+              <select id="countrycode" name="countrycode" class="code">
+                <option data-countryCode="DZ" value="213">+23</option>
+		             <option data-countryCode="AD" value="376">+376</option>
+		             <option data-countryCode="AO" value="244">+244</option>
+		             <option data-countryCode="AI" value="1264">+1264</option>
+		             <option data-countryCode="AG" value="1268">+1268</option>
+		             <option data-countryCode="AR" value="54">+54</option>
+		             <option data-countryCode="AM" value="374">+374</option>
+		             <option data-countryCode="AW" value="297">+297</option>
+		             <option data-countryCode="AU" value="61">+61</option>
+		             <option data-countryCode="AT" value="43">+43</option>
+		             <option data-countryCode="AZ" value="994">+994</option>
+		             <option data-countryCode="BS" value="1242">+1242</option>
+		             <option data-countryCode="BH" value="973">+973</option>
+		             <option data-countryCode="BD" value="880">+880</option>
+		             <option data-countryCode="BB" value="1246">+1246</option>
+		             <option data-countryCode="BY" value="375">+375</option>
+		             <option data-countryCode="BE" value="32">+32</option>
+		             <option data-countryCode="BZ" value="501">+501</option>
+              </select>
+            </div>
+              <div>
+              <input class="code-number" type="number"  required ></div>
+              
+            </div>
+
+
+
+
+            </form>
+            </div>
+            
+            </div>
+          
+        
+      
+      
+        
+        
+          
+          <section class="billing-right">
+            <h3 class="order">YOUR ORDER</h3>
+          <div class="list-amount">
+          <div class="amount-list">
+            <ul class="li1">
+              <li>Cart Subtotal</li>
+              <li>Shipping&Handing</li>
+              <li class="coupon">Coupon Discount</li>
+              <li class="total">Order Total</li>
+            </ul>
+
+          </div>
+
+          <div class="amount">
+            <ul class="li1">
+              <li>$465.99</li>
+              <li class="free">Free</li>
+              <li class="percent">-30%</li>
+              <li class="last-amount">$465.99</li>
+            </ul>
+
+          </div>
+        </div>
+        </section>
+        </section>
+        <section class="bottom">
+        <section class="shipping-address">
+          <div class="container">
+              <h3 class="left-hea1">SHIPPING ADDRESS</h3>
+              <div class="forms">
+              <form class="form1">
+                <div>
+                <label class="first">First Name<sup>*</sup></label><br>
+                <input class="ft-name bar" type="text" required ></div>
+    
+                <div>
+                <label class="first">Address<sup>*</sup></label><br>
+                <input class="add-name bar" type="text" required></div>
+    
+                <div>
+                <label class="first ">Country/States</label><br>
+                <select id="country" name="country" class="bar">
+                  <option class="select" disabled selected>Select</option>
+                  <option value="India">India</option>
+                  <option value="Albania">Albania</option>
+                  <option value="Algeria">Algeria</option>
+                  <option value="American Samoa">American Samoa</option>
+                  <option value="Andorra">Andorra</option>
+                  <option value="Angola">Angola</option>
+                  <option value="Anguilla">Anguilla</option>
+                  <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Armenia">Armenia</option>
+                  <option value="Aruba">Aruba</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Austria">Austria</option>
+                  <option value="Azerbaijan">Azerbaijan</option>
+                  <option value="Bahamas">Bahamas</option>
+                  <option value="Bahrain">Bahrain</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                </select></div>
+                <div>
+                <label class="first">Email Address</label><br>
+                <input class="ft-name bar" type="email">
+              </div>  
+              </form>
+              <form class="form2">
+                <div>
+                <label class="first">Last Name<sup>*</sup></label><br>
+                <input class="ft-name bar" type="text" required ></div>
+                <div>
+                <label class="first">Town/City<sup>*</sup></label><br>
+                <input class="ft-name bar" type="text" required ></div>
+                <div>
+                <label class="first">Postcode/Zip</label><br>
+                <input class="ft-name bar" type="number" required > </div>
+                <label class="first code-main">Phone</label><br>
+                <div class="code-flex">
+                <div>
+              <select id="countrycode" name="countrycode" class="code">
+                <option data-countryCode="DZ" value="213">+23</option>
+		             <option data-countryCode="AD" value="376">+376</option>
+		             <option data-countryCode="AO" value="244">+244</option>
+		             <option data-countryCode="AI" value="1264">+1264</option>
+		             <option data-countryCode="AG" value="1268">+1268</option>
+		             <option data-countryCode="AR" value="54">+54</option>
+		             <option data-countryCode="AM" value="374">+374</option>
+		             <option data-countryCode="AW" value="297">+297</option>
+		             <option data-countryCode="AU" value="61">+61</option>
+		             <option data-countryCode="AT" value="43">+43</option>
+		             <option data-countryCode="AZ" value="994">+994</option>
+		             <option data-countryCode="BS" value="1242">+1242</option>
+		             <option data-countryCode="BH" value="973">+973</option>
+		             <option data-countryCode="BD" value="880">+880</option>
+		             <option data-countryCode="BB" value="1246">+1246</option>
+		             <option data-countryCode="BY" value="375">+375</option>
+		             <option data-countryCode="BE" value="32">+32</option>
+		             <option data-countryCode="BZ" value="501">+501</option>
+              </select>
+            </div>
+              <div>
+              <input class="code-number" type="number"  required ></div>
+              
+            </div>
+                </form>
+                </div>
+          </div>
+        </section>
+        <section class="shipping-right">
+          <div class="payment-method">
+            <p class="pay">PAYMENT METHOD</p>
+          </div>
+          <div class="card">
+            <div class="cre">
+            <p class="credit">Credit Card</p>
+          </div>
+          <div class="ban">
+            <p class="bank">Bank Transfer</p>
+          </div>
+          <div class="pal">
+            <p class="paypal">Paypal</p>
+          </div>
+          </div>
+          <div class="card-detial">
+            <form class="form3">
+            <div class="card-name">
+            <label class="first">Name on Card<sup>*</sup></label><br>
+                <input class="ft-name bar card-nam1" type="text" placeholder="Name*">
+              </div>
+              
+              <div class="card-num">
+                <div>
+                <label class="first cardnum">Card Number<sup>*</sup></label><br>
+                    <input class="ft-name bar card-num1" type="number" placeholder="OOOO OOOO OOOO OOOO"></div>
+                  
+                  <div>
+                    <label class="first">CVV<sup>*</sup></label><br>
+                        <input class="ft-name bar cvv" type="number">
+                      </div>
+                      </div>
+
+                      <div class="month-year">
+                      
+                           <div class="all-month">
+                             <label class="first" for="month">Month</label><br>
+                            <select id="month" name="months" class="bar month-list">
+                              <option  value="December">December</option>
+                               <option  value="january">January</option>
+                               <option  value="Febraury">Febraury</option>
+                               <option  value="March">March</option>
+                               <option  value="April">April</option>
+                               <option  value="May">May</option>
+                               <option  value="June">June</option>
+                               <option  value="July">July</option>
+                               <option  value="August">August</option>
+                               <option  value="September">September</option>
+                               <option  value="October">October</option>
+                               <option  value="November">November</option>
+                               <option  value="December">December</option>
+                            </select></div>
+
+                            <div class="all-year">
+                              <label class="first" for="Year">Year</label><br>
+                              <select id="year" name="years" class="bar year-list">
+                                <option  value="Select year">Select year</option>
+                                <option  value="2010">2010</option>
+                                 <option  value="2011">2011</option>
+                                 <option  value="2012">2012</option>
+                                 <option  value="2013">2013</option>
+                                 <option  value="2014">2014</option>
+                                 <option  value="2015">2015</option>
+                                 <option  value="2016">2016</option>
+                                 <option  value="2017">2017</option>
+                                 <option  value="2018">2018</option>
+                                 <option  value="2019">2019</option>
+                                 <option  value="2020">2020</option>
+                                 <option  value="2021">2021</option>
+                                 <option  value="2022">2022</option>
+                              </select></div>
+                              </div>
+                    </form>
+                    <div class="btn-place">
+                      <button class="btn">Place Order</button>
+                    </div>
+                    
+          </div>
+        
+
+
+        </section>
+      </section>
+
+      <footer class="footer">
+        <div class="container3">
+        <div class="content">
+          <div class="about">
+            <div class="about-heading">
+              ABOUT US
+            </div>
+            <div class="about-content">
+              Lorem ipsum dolor, sit amet.conse <br>ctetur adipiscing.
+            </div>
+            
+            
+            <div class="clock">
+              <img class="envelope" src="images/clock.png" width="15px" height="15px">
+                <p class="clock-text">
+                  9:00 - 19:00 , Monday- saturday
+                  </p>
+                
+              
+              </div>
+              <div class="phone">
+              <img class="envelope" src="images/phone-call.png" width="15px" height="15px">
+                <p class="phone-text">
+                  999 - 999 - 999
+                </p>
+              
+            
+          </div>
+          <div class="email">
+              <img class="envelope" src="images/envelope.png" width="15px" height="15px">
+                <p class="email-text">
+                  prosto@shop.com
+                </p>
+              
+          </div>
+        
+        
+            
+          </div>   
+          <div class="information">
+            <div class="info-header">
+              INFORMATION
+            </div>
+            <div class="info-content">
+              <ul>
+              
+                <li>About Us</li>
+                <li>Delivery Information</li>
+                <li>Privacy & Policy</li>
+                <li>Terms & condition</li>
+                <li>Manufactures</li>
+              </ul>
+            </div>
+          </div>  
+          <div class="company">
+            <div class="com-header">
+              COMPANY
+            </div>
+            <div class="com-content">
+              <ul>
+                <li>Careers</li>
+                <li>Affiliate Program</li>
+                <li>Social Responsibility</li>
+                <li>Buisness With Us</li>
+                <li>Our Team</li>
+              </ul>
+            </div>
+          </div> 
+          <div class="instagram">
+            <div class="insta-header">
+              INSTAGRAM
+            </div>
+            <dIV class="insta-img">
+              <img class="insta1 insta" src="images/insta-1.jpg" alt="boy with glass">
+              <img class="insta2 insta" src="images/insta-2.jpg" alt="insta girl">
+              <img class="insta3 insta" src="images/insta-3.jpg" alt="girl with glass">
+              <img class="insta3 insta" src="images/insta-3.jpg" alt="girl with glass">
+              <img class="insta1 insta" src="images/insta-1.jpg" alt="boy with glass">
+              <img class="insta2 insta" src="images/insta-2.jpg" alt="insta girl">
+              
+            </dIV>
+          </div>       
+      </div>
+    </div>
+      </footer>
+      <section class="news-letter">
+        <div class="container3">
+          <div class="news-container">
+          <div class="news-header">
+            NEWSLETTER
+          </div>
+          <div class="news-search">
+            <input class="news-email" type="email" placeholder="E-mail address">
+            <div class="icon1"><i class="fa fa-envelope"></i></div>
+ 
+            </div>
+            <div class="news-logo">
+              <div class="ball" ><ion-icon class="ball" name="basketball-outline"></ion-icon></div>
+              <div ><a href="#" class="hv ping"><i class="fab fa-pinterest-p"></i></a></div>
+              <div ><a href="#" class="hv twitter"><i class="fab fa-twitter"></i></a></div>
+              <div ><a href="#" class="hv google"><i class="fab fa-google-plus-g"></i></a></div>
+              <div ><a href="#" class="hv fb"><i class="fab fa-facebook-f"></i></a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="copyright">
+        <div class="container3">
+          <div class="copy-flex">
+          <div class="copy">
+            <p class="copy-text">Copyrights &#169 2018 by <span>Codem</span>. All Rights Reserved</p>
+          </div>
+          <div class="payment">
+            <div class="box master1">
+            <a href="#"><img class="master" src="images/mastercard.png" alt="master card"></a>
+          </div>
+          <div class="box paypall1">
+            <a href="#"><img class="paypall" src="images/paypal.png" alt="paypall"></a>
+          </div>
+            <div class="box visa1">
+            <a href="#"><img class="visa" src="images/visa.png" alt="visa"></a>
+          </div>
+            <div class="box ebay1">
+            <a href="#"><img class="ebay" src="images/ebay.png" alt="ebay"></a>
+          </div>
+            <div class="box cirrus1">
+            <a href="#"><img class="cirrus" src="images/cirrus.png" alt="cirrus"></a>
+          </div>
+          </div>
+        </div>
+
+        </div>
+      </section>
+      
+      
+      </div>
+    </div>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>
